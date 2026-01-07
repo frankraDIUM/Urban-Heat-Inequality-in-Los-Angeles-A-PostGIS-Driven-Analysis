@@ -1,5 +1,5 @@
 # Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis
-This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL.
+This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. Interact with map on kepler.gl (https://tinyurl.com/mrbwdjsp)
 
 
 
@@ -51,6 +51,7 @@ This project investigates urban heat inequality in Los Angeles County using geos
   - Added basemap (OpenStreetMap), title, legend, and key finding label.
 - Final Map Preview: Shows clear heat islands in central/downtown LA (dark red, lower-income) vs. cooler coastal areas (light orange, higher-income).
 
+QGIS
 <div>
   <img src="https://github.com/frankraDIUM/Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis/blob/main/Urban%20LA%202.png"/>
 </div> 
