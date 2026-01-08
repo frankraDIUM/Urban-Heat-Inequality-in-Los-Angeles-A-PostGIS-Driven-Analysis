@@ -70,6 +70,19 @@ Interactive Map view on kepler.gl
 - Raster import errors (NODATA constraints, NaN stats) resolved with PostGIS functions like `ST_SetBandNoDataValue`.
 - QGIS loading warnings for views handled by adding unique `id` column.
 
+
+Tools and Software Used
+
+Google Earth Engine – For accessing and exporting mean summer 2023 Landsat 8/9 Land Surface Temperature (Collection 2 Level-2, band ST_B10 converted to Celsius).
+PostgreSQL + PostGIS + PostGIS Raster – Core database for storing vector (tracts) and raster (LST) data, performing spatial joins, clipping, and zonal statistics.
+pgAdmin 4 – GUI for database management, query execution, table/view creation, and data import/export.
+Command-line tools:
+raster2pgsql – Raster import
+shp2pgsql – Vector shapefile import
+psql – SQL script execution
+
+QGIS – Final visualization, styling (graduated symbology), clipping to LA County boundary, basemap integration, and print layout creation.
+
 ### Conclusion
 This project demonstrates a complete geospatial workflow: data acquisition, PostGIS ETL and analysis, SQL-based statistics, and QGIS visualization. It provides actionable insights into how heat exposure disproportionately affects lower-income communities in LA, supporting policy recommendations for green infrastructure equity.
 
