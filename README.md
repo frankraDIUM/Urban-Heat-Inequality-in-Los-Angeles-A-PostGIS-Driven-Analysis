@@ -76,7 +76,7 @@ Interactive Map view on kepler.gl
 - PostgreSQL + PostGIS + PostGIS Raster – Core database for storing vector (tracts) and raster (LST) data, performing spatial joins, clipping, and zonal statistics.
 - pgAdmin 4 – GUI for database management, query execution, table/view creation, and data import/export.
 - SQL Shell
-- 
+
 Command-line tools:
 - raster2pgsql – Raster import
 - shp2pgsql – Vector shapefile import
