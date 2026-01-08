@@ -11,6 +11,11 @@ This project investigates urban heat inequality in Los Angeles County using geos
 - **Land Surface Temperature (LST) Raster**: Exported mean summer 2023 LST (June-August, Celsius) from Landsat 8/9 via Google Earth Engine. Imported as raster table `lst_raster` using `raster2pgsql`. Handled NODATA values and verified stats (mean ~35–42°C).
 - **Median Household Income**: Downloaded ACS 5-Year Estimates (2023, Table S1901) as CSV from Census Bureau. Cleaned special values ("-", "250,000+"), imported into `income` table, and joined to tracts using GEOID (98% match rate).
 
+Extracting from Google Earth Engine
+<div>
+  <img src="https://github.com/frankraDIUM/Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis/blob/main/LA%20GEE.png"/>
+</div> 
+
 ### 2. PostGIS Database Setup
 - Created database `urban_heat_la` with PostGIS and PostGIS Raster extensions.
 - Loaded raster and vector data with spatial indexes (GIST) for performance.
@@ -54,6 +59,11 @@ This project investigates urban heat inequality in Los Angeles County using geos
 QGIS
 <div>
   <img src="https://github.com/frankraDIUM/Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis/blob/main/Urban%20LA%202.png"/>
+</div> 
+
+Interactive Map view on kepler.gl
+<div>
+  <img src="https://github.com/frankraDIUM/Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis/blob/main/LA%20kepler.png"/>
 </div> 
 
 ### 6. Technical Challenges Overcome
