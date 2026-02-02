@@ -1,5 +1,5 @@
 # Urban-Heat-Inequality-in-Los-Angeles-A-PostGIS-Driven-Analysis
-This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. Interact with map on kepler.gl (https://tinyurl.com/mrbwdjsp)
+This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. Interact with map on kepler.gl [![View](https://img.shields.io/badge/View-Click%20Here-blue)](https://tinyurl.com/mrbwdjsp)</button>
 
 
 
@@ -68,7 +68,7 @@ Interactive Map view on kepler.gl
 
 ### 6. Technical Challenges Overcome
 - Raster import errors (NODATA constraints, NaN stats) resolved with PostGIS functions like `ST_SetBandNoDataValue`.
-- QGIS loading warnings for views handled by adding unique `id` column.
+- QGIS loading warnings for views handled by adding a unique `id` column.
 
 
 ### Tools and Software
