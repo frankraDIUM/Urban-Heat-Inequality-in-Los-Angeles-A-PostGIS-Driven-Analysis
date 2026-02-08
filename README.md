@@ -1,6 +1,6 @@
 # Urban Heat Inequality in Los Angeles: A PostGIS-Driven Analysis
 This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. 
-Interact with map on kepler.gl 👉 [![View](https://img.shields.io/badge/View-Click%20Here-blue)](https://tinyurl.com/mrbwdjsp)</button>
+Live Map 👉 [![View](https://img.shields.io/badge/View-Click%20Here-blue)](https://tinyurl.com/mrbwdjsp)</button>
 
 
 
