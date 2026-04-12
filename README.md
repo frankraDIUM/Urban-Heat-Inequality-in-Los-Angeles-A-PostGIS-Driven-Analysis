@@ -1,8 +1,15 @@
-# Urban Heat Inequality in Los Angeles: A PostGIS-Driven Analysis
+# 🌡️ Urban Heat Inequality in Los Angeles: A PostGIS-Driven Analysis
 This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. 
 Live Map 👉 [![View](https://img.shields.io/badge/View-Click%20Here-blue)](https://tinyurl.com/mrbwdjsp)</button>
 
+---
+Map Preview
 
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Urban-Heat-Inequality-in-Los-Angeles-with-GEE-and-PostGIS/blob/main/heat.gif" />
+</p>
+
+---
 
 ## Project Overview
 This project investigates urban heat inequality in Los Angeles County using geospatial data and PostGIS/SQL. The goal was to calculate mean land surface temperature (LST) per census tract, integrate median household income data, classify tracts into income quintiles, and visualize heat exposure disparities. The analysis reveals that lower-income areas experience significantly higher temperatures, highlighting environmental justice issues.
